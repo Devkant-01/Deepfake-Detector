@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+
+
+# DeepFake Detector - Project specific
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# Trained deep learning models
+models/**/*.pth
+models/**/*.pt
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
